@@ -16,6 +16,6 @@ fn main() {
     });
     println!(
         "Got response from server:{:?}",
-        str::from_utf8(&buffer).unwrap();
+        str::from_utf8(&buffer).unwrap()
     );
 }
