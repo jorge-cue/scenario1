@@ -1,5 +1,11 @@
 [workspace]
+resolver = "2"
 members = [
     "tcpserver","tcpclient", "http", "httpserver",
 ]
-resolver = "2"
+
+[workspace.package]
+version = "0.1.0"
+description = "Developed following the book 'Rust Servers, Services, and Apps'"
+homepage = "https://www.manning.com/books/rust-servers-services-and-apps"
+rust-version = "1.83.0"
